@@ -1,0 +1,153 @@
+body{
+	overflow-x: hidden;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+font-family: 'Oxygen', sans-serif;
+
+}
+h3{
+	color: #ff1e00;
+	font-weight: bold;
+}
+#nav-top{
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #4CAF50;
+	padding: 10px;
+}
+#nav-top section div img{
+	border-radius: 50%;
+} 
+#nav-top section div p{
+	background-color: #e8f9fd;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.3em;
+	color: #0b0e16;
+	font-weight: bold;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.6%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+	header{
+		margin-bottom: 20px;
+	}
+	#effect{
+		margin-bottom: 30px;
+	}
+	#part1,#part3{
+		height: 300px;
+		background-color: #4CAF50;
+	}
+	#part2{
+		background-color:#7dce94;
+		height: 300px;
+		
+		border-radius: 35px;
+	}
+	#part2 div span{
+		color: #ff3b3f;
+	}
+	h4{
+		background-color: #fff;
+		padding: 2px;
+		margin-top: 20px;
+		color: #4CAF50;
+		font-weight: bold;
+	}
+	#end{
+		background-color:#7dce94;
+		text-align: center;
+		padding: 20px;
+	}
+	#parts{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	#gramsev>div,#sarpanch>div,#krushisev>div,#zp>div{
+		background-color: #fff;
+		padding: 1px;
+		margin-top: 10px;
+		color: #000;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+	#gramsev img,#sarpanch img,#krushisev img,#zp img{
+		border-radius: 10%;
+	}
+	footer{
+		
+		height: 40px;
+		background-color: #a9a9a9;
+		margin-top: 30px;
+	}
+
+	#new{
+		background-color: #4ABDAC;
+		color: #000;
+	}
+	h2{
+		color:#fc4a1a;
+	}
+	#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 13px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 26px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+@media(min-width: 320px) and (max-width:678px){
+#nav-top section div p,.navbar a ,#part2,h3{
+	font-size: 0.8em;
+}
+h4{
+	font-size: 1.2em;
+}
+h2{
+	font-size: 1.4em;
+}
+#gramsev>div,
+#sarpanch>div,#krushisev>div,#zp>div{
+	font-size: 0.7em;
+}
+#myBtn{
+	 height: 30px;
+  font-size: 18px;
+}	
+}
