@@ -65,7 +65,7 @@ h3{
 		background-color:#7dce94;
 		height: 300px;
 		
-		border-radius: 35px;
+		border-radius: 25px;
 	}
 	#part2 div span{
 		color: #ff3b3f;
@@ -132,7 +132,7 @@ h3{
 #myBtn:hover {
   background-color: #555;
 }
-@media(min-width: 320px) and (max-width:678px){
+@media(min-width: 450px) and (max-width:678px){
 #nav-top section div p,.navbar a ,#part2,h3{
 	font-size: 0.8em;
 }
@@ -150,4 +150,29 @@ h2{
 	 height: 30px;
   font-size: 18px;
 }	
+#gs,#sp{
+	margin-bottom: 10px;
+}
+}
+@media (max-width:449px){
+#nav-top section div p,.navbar a ,#part2,h3{
+	font-size: 0.6em;
+}
+h4{
+	font-size: 1.0em;
+}
+h2{
+	font-size: 1.2em;
+}
+#gramsev>div,
+#sarpanch>div,#krushisev>div,#zp>div{
+	font-size: 0.55em;
+}
+#myBtn{
+	 height: 30px;
+  font-size: 18px;
+}	
+#gs,#sp{
+	margin-bottom: 10px;
+}
 }
